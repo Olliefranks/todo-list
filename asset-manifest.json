@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Olliefranks.github.io/todo/list/static/css/main.7e58a474.css",
-    "main.js": "/Olliefranks.github.io/todo/list/static/js/main.c648fd6b.js",
-    "static/js/453.81f383cb.chunk.js": "/Olliefranks.github.io/todo/list/static/js/453.81f383cb.chunk.js",
-    "index.html": "/Olliefranks.github.io/todo/list/index.html",
-    "main.7e58a474.css.map": "/Olliefranks.github.io/todo/list/static/css/main.7e58a474.css.map",
-    "main.c648fd6b.js.map": "/Olliefranks.github.io/todo/list/static/js/main.c648fd6b.js.map",
-    "453.81f383cb.chunk.js.map": "/Olliefranks.github.io/todo/list/static/js/453.81f383cb.chunk.js.map"
+    "main.css": "/Olliefranks.github.io/ToDo-List/static/css/main.7e58a474.css",
+    "main.js": "/Olliefranks.github.io/ToDo-List/static/js/main.aebb4d78.js",
+    "static/js/453.81f383cb.chunk.js": "/Olliefranks.github.io/ToDo-List/static/js/453.81f383cb.chunk.js",
+    "index.html": "/Olliefranks.github.io/ToDo-List/index.html",
+    "main.7e58a474.css.map": "/Olliefranks.github.io/ToDo-List/static/css/main.7e58a474.css.map",
+    "main.aebb4d78.js.map": "/Olliefranks.github.io/ToDo-List/static/js/main.aebb4d78.js.map",
+    "453.81f383cb.chunk.js.map": "/Olliefranks.github.io/ToDo-List/static/js/453.81f383cb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7e58a474.css",
-    "static/js/main.c648fd6b.js"
+    "static/js/main.aebb4d78.js"
   ]
 }
