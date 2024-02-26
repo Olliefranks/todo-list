@@ -1,8 +1,11 @@
-const Job = ({ task, onDelete }) => {
+import react from "react";
+
+const Job = ({ task, id, onDelete, onComplete }) => {
   return (
-    <div>
+    <div className={`job ${onComplete ? "completed" : ""}`}>
       {task}
       <button onClick={onDelete}>Delete</button>
+      <button onClick={onComplete}>Complete</button>
     </div>
   );
 };

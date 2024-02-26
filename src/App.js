@@ -1,10 +1,12 @@
 import { useState } from "react";
 import Job from "./Components/Job";
 import List from "./Components/List";
+import "./App.css";
 
 const App = () => {
   const [jobs, setJobs] = useState([]);
   const [input, setInput] = useState("");
+  const [completedJobs, setCompletedJobs] = useState([]);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -23,6 +25,10 @@ const App = () => {
     setJobs(updatedJobs);
   };
 
+  const completedJob = (id) => {
+    setCompletedJobs([...completedJobs, id]);
+  };
+
   return (
     <div>
       <h1>My to do list app in react</h1>
@@ -39,11 +45,20 @@ const App = () => {
         {jobs.map((job) => (
           <Job
             key={job.id}
+            id={job.id}
             task={job.task}
             onDelete={() => deleteJob(job.id)}
+            onComplete={() => completedJob(job.id)}
           />
         ))}
       </List>
+
+      <div id="note">
+        <img
+          class="pic"
+          src="https://dailydoodle.de/doodles/20210129-notepad.png"
+        />
+      </div>
     </div>
   );
 };

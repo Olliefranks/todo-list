@@ -1,5 +1,5 @@
 const List = ({ children }) => {
-  return <ul>{children}</ul>;
+  return <ol>{children}</ol>;
 };
 
 export default List;
